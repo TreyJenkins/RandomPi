@@ -11,10 +11,9 @@
 #define RANGE 1000000000000
 
 int gcd(unsigned long long a, unsigned long long b) {
-    unsigned long long temp;
     while (b != 0)
     {
-        temp = a % b;
+        uintmax_t temp = a % b;
 
         a = b;
         b = temp;
