@@ -26,8 +26,8 @@ int main(int argc, char const *argv[]) {
     printf("+--------------------+\n| Build ID: %s |\n+--------------------+\n\n", MACRO(BUILDID));
     #endif
 
-    uintmax_t Iter = ITER;
-    uintmax_t Range = RANGE;
+    unsigned long Iter = ITER;
+    unsigned long Range = RANGE;
     unsigned long long RC = 0;
     unsigned long long Time;
     double pi = 0;
